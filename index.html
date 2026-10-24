@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A little date invitation, made with a whole lot of love."
+    />
+    <meta name="theme-color" content="#fff8fb" />
+    <title>I Just Want to Spend Some Time With You ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="sky-decorations" aria-hidden="true">
+      <span class="sky-heart heart-one">♡</span>
+      <span class="sky-heart heart-two">♥</span>
+      <span class="sky-heart heart-three">♡</span>
+      <span class="sky-heart heart-four">✦</span>
+      <span class="sky-heart heart-five">♥</span>
+      <span class="sky-heart heart-six">✧</span>
+      <span class="sky-heart heart-seven">♡</span>
+      <span class="sky-heart heart-eight">✦</span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Our little date, back to the beginning">
+        <span class="brand-mark" aria-hidden="true">♡</span>
+        <span>our little date</span>
+      </a>
+      <span class="header-note"><span aria-hidden="true">✦</span> made with love, just for you</span>
+    </header>
+
+    <main class="page-shell">
+      <nav class="story-progress" aria-label="Date invitation steps">
+        <span class="progress-step is-active" data-progress="invitation">
+          <span class="step-number">01</span><span>the invite</span>
+        </span>
+        <span class="progress-line" aria-hidden="true"></span>
+        <span class="progress-step" data-progress="planning">
+          <span class="step-number">02</span><span>the plan</span>
+        </span>
+        <span class="progress-line" aria-hidden="true"></span>
+        <span class="progress-step" data-progress="celebration">
+          <span class="step-number">03</span><span>the happy bit</span>
+        </span>
+      </nav>
+
+      <section class="screen invitation-screen is-visible" data-screen="invitation">
+        <div class="love-card invitation-card">
+          <div class="invitation-copy">
+            <p class="eyebrow"><span aria-hidden="true">✿</span> a very important question</p>
+            <h1 tabindex="-1">I just want to spend <em>some time</em> with you<span aria-hidden="true">❤️</span></h1>
+            <p class="intro">Hey, beautiful! <span aria-hidden="true">🥹💗</span></p>
+            <p class="question-copy">I have a tiny question for you...</p>
+            <p class="date-question">Will you go on a little date with me?</p>
+
+            <div class="button-arena" id="button-arena">
+              <button class="button button-yes" id="yes-button" type="button">
+                Yes, of course <span aria-hidden="true">💖</span>
+              </button>
+              <button class="button button-no" id="no-button" type="button">
+                No <span aria-hidden="true">🙈</span>
+              </button>
+            </div>
+            <p class="no-message" id="no-message" role="status" aria-live="polite" hidden></p>
+            <p class="little-hint" id="little-hint" aria-live="polite" hidden>
+              Psst... the pink button is the correct answer, baby! 🤫💕
+            </p>
+            <p class="tiny-promise"><span aria-hidden="true">♡</span> A date with me comes with snacks. Just saying.</p>
+          </div>
+
+          <div class="illustration-panel" aria-label="A little teddy bear holding a heart">
+            <span class="illustration-sparkle sparkle-a" aria-hidden="true">✦</span>
+            <span class="illustration-sparkle sparkle-b" aria-hidden="true">✧</span>
+            <span class="illustration-sparkle sparkle-c" aria-hidden="true">♡</span>
+            <div class="sun-disc" aria-hidden="true"></div>
+            <svg class="teddy-illustration" viewBox="0 0 340 360" role="img" aria-labelledby="bear-title">
+              <title id="bear-title">A sweet teddy bear giving you a heart</title>
+              <ellipse cx="170" cy="325" rx="112" ry="18" fill="#dfb4c6" opacity=".3" />
+              <path d="M73 105c-20-25-4-56 20-57 24-1 35 27 22 49" fill="#c98c78" />
+              <path d="M225 97c-13-22 0-50 23-49 25 1 39 32 18 57" fill="#c98c78" />
+              <circle cx="98" cy="65" r="16" fill="#f5c8b9" />
+              <circle cx="246" cy="65" r="16" fill="#f5c8b9" />
+              <ellipse cx="170" cy="225" rx="96" ry="88" fill="#dba08b" />
+              <ellipse cx="170" cy="242" rx="58" ry="52" fill="#f4d8c8" />
+              <path d="M106 215c-31 1-44 22-40 46 4 25 31 32 51 17" fill="#dba08b" />
+              <path d="M234 215c31 1 44 22 40 46-4 25-31 32-51 17" fill="#dba08b" />
+              <ellipse cx="132" cy="293" rx="34" ry="24" fill="#dba08b" />
+              <ellipse cx="207" cy="293" rx="34" ry="24" fill="#dba08b" />
+              <circle cx="170" cy="127" r="82" fill="#dba08b" />
+              <ellipse cx="170" cy="159" rx="44" ry="34" fill="#f4d8c8" />
+              <ellipse cx="170" cy="148" rx="10" ry="7" fill="#744d4b" />
+              <path d="M162 164q8 9 16 0" fill="none" stroke="#744d4b" stroke-width="4" stroke-linecap="round" />
+              <ellipse cx="126" cy="153" rx="12" ry="7" fill="#e9949b" opacity=".72" />
+              <ellipse cx="214" cy="153" rx="12" ry="7" fill="#e9949b" opacity=".72" />
+              <ellipse cx="143" cy="123" rx="6" ry="8" fill="#563d3c" />
+              <ellipse cx="197" cy="123" rx="6" ry="8" fill="#563d3c" />
+              <path d="M142 94q11-12 21-2m15 0q10-10 21 2" fill="none" stroke="#744d4b" stroke-width="4" stroke-linecap="round" />
+              <path d="M153 202c0-16 19-21 27-6 9-15 28-10 28 6 0 16-28 35-28 35s-27-19-27-35" fill="#ed7896" stroke="#cf587d" stroke-width="3" />
+              <path d="M77 115q-13 12-7 27m193-27q13 12 7 27" fill="none" stroke="#b87668" stroke-width="4" stroke-linecap="round" opacity=".7" />
+            </svg>
+            <div class="illustration-caption"><span aria-hidden="true">♡</span> your date is already blushing</div>
+            <span class="floating-flower flower-a" aria-hidden="true">✿</span>
+            <span class="floating-flower flower-b" aria-hidden="true">✿</span>
+          </div>
+        </div>
+        <p class="page-footnote">the beginning of a very cute little story <span aria-hidden="true">✷</span></p>
+      </section>
+
+      <section class="screen planning-screen" data-screen="planning" hidden>
+        <div class="section-heading">
+          <p class="eyebrow"><span aria-hidden="true">✿</span> date planning, but make it adorable</p>
+          <h2 tabindex="-1">Let's make a little <em>memory</em> together <span aria-hidden="true">💗</span></h2>
+          <p>Choose the day you're going to make your boyfriend the happiest person alive! 🥰</p>
+        </div>
+
+        <div class="love-card planning-card">
+          <div class="calendar-column">
+            <div class="calendar-topline">
+              <div>
+                <p class="calendar-kicker">pick your perfect day</p>
+                <h3 id="calendar-month" aria-live="polite" aria-atomic="true">Month Year</h3>
+              </div>
+              <div class="month-controls">
+                <button class="icon-button" id="previous-month" type="button" aria-label="Previous month">‹</button>
+                <button class="icon-button" id="next-month" type="button" aria-label="Next month">›</button>
+              </div>
+            </div>
+            <div class="calendar-grid weekday-grid" aria-hidden="true">
+              <span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+            </div>
+            <div class="calendar-grid day-grid" id="calendar-days" role="group" aria-label="Choose a date" aria-live="polite"></div>
+            <p class="calendar-note"><span aria-hidden="true">♡</span> The best day is the one we spend together.</p>
+          </div>
+
+          <div class="time-column">
+            <div class="time-heading">
+              <span class="time-icon" aria-hidden="true">◷</span>
+              <div>
+                <p class="calendar-kicker">and the perfect time</p>
+                <h3>When should I pick you up?</h3>
+              </div>
+            </div>
+            <p class="time-date-label" id="time-date-label">Choose a day first to see your date times.</p>
+            <div class="time-slots" id="time-slots" role="group" aria-label="Choose a time">
+              <button class="time-slot" type="button" data-time="10:00">
+                <span class="slot-emoji" aria-hidden="true">☀️</span><span class="slot-copy"><strong>10:00 AM</strong><small>Morning sunshine</small></span><span class="slot-check" aria-hidden="true">♡</span>
+              </button>
+              <button class="time-slot" type="button" data-time="12:00">
+                <span class="slot-emoji" aria-hidden="true">🍕</span><span class="slot-copy"><strong>12:00 PM</strong><small>Lunch date</small></span><span class="slot-check" aria-hidden="true">♡</span>
+              </button>
+              <button class="time-slot" type="button" data-time="15:00">
+                <span class="slot-emoji" aria-hidden="true">🌸</span><span class="slot-copy"><strong>3:00 PM</strong><small>Cute afternoon outing</small></span><span class="slot-check" aria-hidden="true">♡</span>
+              </button>
+              <button class="time-slot" type="button" data-time="17:00">
+                <span class="slot-emoji" aria-hidden="true">🌅</span><span class="slot-copy"><strong>5:00 PM</strong><small>Golden-hour romance</small></span><span class="slot-check" aria-hidden="true">♡</span>
+              </button>
+              <button class="time-slot" type="button" data-time="19:00">
+                <span class="slot-emoji" aria-hidden="true">✨</span><span class="slot-copy"><strong>7:00 PM</strong><small>Evening date</small></span><span class="slot-check" aria-hidden="true">♡</span>
+              </button>
+            </div>
+            <button class="button button-confirm" id="confirm-button" type="button" disabled>
+              Confirm our little date <span aria-hidden="true">💖</span>
+            </button>
+            <button class="text-button" id="back-to-invite" type="button"><span aria-hidden="true">←</span> back to the love note</button>
+          </div>
+        </div>
+        <p class="page-footnote">no rush, my favourite person <span aria-hidden="true">♡</span></p>
+      </section>
+
+      <section class="screen celebration-screen" data-screen="celebration" hidden>
+        <div class="celebration-card">
+          <div class="celebration-art" aria-hidden="true">
+            <div class="big-heart">♥</div>
+            <span class="art-sparkle art-sparkle-one">✦</span>
+            <span class="art-sparkle art-sparkle-two">✧</span>
+            <span class="art-sparkle art-sparkle-three">♡</span>
+            <span class="art-flower art-flower-one">✿</span>
+            <span class="art-flower art-flower-two">❀</span>
+          </div>
+          <p class="eyebrow celebration-eyebrow"><span aria-hidden="true">✦</span> best. answer. ever.</p>
+          <h2 class="love-you-title" tabindex="-1">Love you <em>so much!</em> <span aria-hidden="true">❤️🥹</span></h2>
+          <p class="celebration-subtitle">You just made my heart the happiest! 💕</p>
+          <p class="official-line">Our little date is officially planned! 🥰</p>
+
+          <div class="date-confirmation">
+            <div class="confirmation-row">
+              <span class="confirmation-icon" aria-hidden="true">📅</span>
+              <span><small>our day</small><strong id="confirmed-date">—</strong></span>
+            </div>
+            <div class="confirmation-row">
+              <span class="confirmation-icon" aria-hidden="true">⏰</span>
+              <span><small>our time</small><strong id="confirmed-time">—</strong></span>
+            </div>
+            <div class="confirmation-row">
+              <span class="confirmation-icon" aria-hidden="true">💗</span>
+              <span><small>our plan</small><strong>Just you &amp; me</strong></span>
+            </div>
+            <button class="text-button change-date-button" id="change-date" type="button">
+              <span aria-hidden="true">✎</span> wait, let me change something
+            </button>
+          </div>
+
+          <div class="share-actions">
+            <button class="whatsapp-share-button" id="share-date" type="button">
+              <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M16 3.5a12.2 12.2 0 0 0-10.4 18.6L4 28l6.1-1.6A12.2 12.2 0 1 0 16 3.5Z" />
+                <path d="M12.1 10.3c-.3-.7-.7-.7-1-.7h-.8c-.3 0-.8.1-1.2.6-.4.4-1.5 1.4-1.5 3.5s1.5 4.1 1.7 4.4c.2.3 2.9 4.6 7.1 6.2 3.5 1.4 4.2 1.1 5 .9.8-.2 2.6-1.1 2.9-2.1.4-1 .4-1.9.3-2.1-.1-.2-.4-.3-.9-.6l-2.7-1.3c-.4-.2-.7-.2-1 .2-.3.4-1.1 1.3-1.3 1.6-.2.3-.5.3-.9.1-.4-.2-1.8-.7-3.4-2.2-1.3-1.1-2.2-2.5-2.5-2.9-.3-.4 0-.7.2-.9.2-.2.4-.5.6-.7.2-.2.3-.4.4-.7.1-.3 0-.5 0-.7l-1.2-2.6Z" />
+              </svg>
+              <span>Share Our Date on WhatsApp <span aria-hidden="true">💚❤️</span></span>
+            </button>
+            <div class="share-fallback">
+              <button class="share-secondary-button" id="download-date-card" type="button">
+                Download date card PNG
+              </button>
+              <a class="share-secondary-button" id="whatsapp-chat-link" href="#" target="_blank" rel="noopener noreferrer">
+                Open WhatsApp &amp; choose a chat
+              </a>
+            </div>
+            <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="love-notes" aria-live="polite">
+            <p class="love-note">Out of all the people in this world, you're my favourite. ❤️</p>
+            <p class="love-note">Ordinary days become beautiful when I'm with you. 🥹</p>
+            <p class="love-note">And the best part of this date? I get to spend it with YOU! 😘</p>
+          </div>
+          <p class="forever-line">One little date. A million little feelings.<br />Just us. Forever more. <span aria-hidden="true">💗</span></p>
+        </div>
+        <p class="page-footnote final-footnote">Officially booked: one boyfriend, one girlfriend, unlimited love! 😂❤️</p>
+      </section>
+    </main>
+
+    <div class="celebration-overlay" id="celebration-overlay" aria-hidden="true">
+      <div class="transition-heart">💗</div>
+      <p>YAYYYYY! 🥹💗</p>
+      <span>I knew you'd say yes!</span>
+    </div>
+    <div class="loading-overlay" id="loading-overlay" aria-hidden="true">
+      <div class="loading-envelope">💌</div>
+      <p>Gathering all the butterflies...</p>
+    </div>
+    <div class="particle-layer" id="particle-layer" aria-hidden="true"></div>
+    <div class="toast-message" id="toast-message" role="status" aria-live="polite"></div>
+  </body>
+</html>
